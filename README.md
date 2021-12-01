@@ -52,7 +52,6 @@ Execute the program
       
    </body>
 </html>
-
-
 ~~~
 # OUPUT
+![output](./TIMETABLE.html)
