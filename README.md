@@ -1,57 +1,149 @@
 # Experiment_Time_Table
 
-## AIM
+## AIM:
 To Write a html webpage page to display your timetable.
 
-# ALGORITHM
-### STEP 1
+## ALGORITHM:
+STEP 1:
+create a simple table using table tag.
+
+STEP 2:
+Add header row using th tag.
+
+STEP 3:
+Add your timetable.
+
+STEP 4:
+Execute the program.
+
+## CODE:
+
+AIM:
+To Write a html webpage page to display your timetable.
+
+ALGORITHM:
+STEP 1
 create a simple table using table tag
-### STEP 2
+
+STEP 2
 Add header row using th tag
-### STEP 3
+
+STEP 3
 Add your timetable
-### STEP 4
+
+STEP 4
 Execute the program
 
-# CODE
-~~~<!DOCTYPE html>
-<html>
+CODE:
+AIM:
+To Write a html webpage page to display your timetable.
 
-   <head>
-      <title>TIME TABLE</title>
-   </head>
+## ALGORITHM:
+STEP 1
+create a simple table using table tag.
+
+STEP 2
+Add header row using th tag.
+
+STEP 3
+Add your timetable.
+
+STEP 4
+Execute the program.
+
+## CODE:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TIME TABLE</title>
+</head>
+
+<body>
+<img src="logo.png" width="700" height="100" alt="timetable">
+<table border="2" cellspacing="1"  bgcolor="Bisque">
+	<tr>
+	    <th colspan="16">TIMETABLE</th>
+	</tr>
+
+	<tr>
+	    <th colspan="4" align="center">Reference no</th>
+	    <td colspan="4" align="center">21500424</td>
+	    <th colspan="4" align="center">Name</th>
+	    <td colspan="4" align="center">Paarkavy B</td>
+	</tr>
+
+	<tr>
+	    <th colspan="2" align="center">Days</th>
+	    <th colspan="2" align="center">08:00 - 09:00</th>
+        <th colspan="2" align="center">09:00 - 10:00</th>
+	    <th colspan="2" align="center">10:00 - 11:00</th>
+        <th colspan="2" align="center">11:00 - 12:00</th>
+	    <th colspan="2" align="center">12:00 - 13:00</th>
+        <th colspan="2" align="center">13:00 - 14:00</th>
+	    <th colspan="2" align="center">14:00 - 15:00</th>
+	</tr>
+
+	<tr>
+	   <th>Monday</th>
+	   <td colspan="4" align="center">Fundamentals of Web Technology</td>
+	   <td colspan="4" align="center">Python and Linear Algebra</td>
+	   <td colspan="2" align="center">Lunch Break</td>
+	   <td colspan="6" align="center">Mathematics for Artificial Intelligence</td>
+	</tr>
+
+	<tr>
+	   <th>Tuesday</th>
+	   <td colspan="4" align="center">-</td>
+	   <td colspan="4" align="center">Engineering Design and Modelling</td>
+	   <td colspan="2" align="center">Mentoring</td>
+	   <td colspan="6" align="center">Engineering Mechanics and Product Development</td>
+	</tr>
 	
-   <body>
-      <table border = "1" cellspacing="1" bordercolor="blue" bgcolor="yellow">
-         <tr>
-            <th colspan="8">TIME TABLE</th>
-         </tr>
-         
-         <tr>
-            <th>DAYS</th>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-             <th>4</th>
-            <th rowspan="6">lunch break</th>
-            <th>5</th>
-            <th>6</th>
-         </tr>
-          <tr>
-             <td>MONDAY</td>
-             <td>Accounts</td>
-             <td>English</td>
-             <td>Statistics</td>
-             <td>Banking</td>
-             <td align="center">-</td>
-             <td align="center">EP</td>
-         </tr>
-  
-         
-      </table>
-      
-   </body>
+	<tr>
+	   <th>Wednesday</th>
+	   <td colspan="4" align="center">Soft Skills</td>
+	   <td colspan="4" align="center">Python Programming</td>
+	   <td colspan="2" align="center">-</td>
+	   <td colspan="6" align="center">Fundamentals of Web Technology</td>
+	</tr>
+
+	<tr>
+	   <th>Thursday</th>
+	   <td colspan="4" align="center">Engineering Design and Modelling</td>
+	   <td colspan="4" align="center">Python and Linear Algebra</td>
+	   <td colspan="2" align="center">Lunch Break</td>
+	   <td colspan="6" align="center">Engineering Mechanics and Product Development</td>
+	</tr>
+
+	<tr>
+	   <th>Friday</th>
+	   <td colspan="4" align="center">-</td>
+	   <td colspan="4" align="center">Mathematics for Artificial Intelligence</td>
+	   <td colspan="2" align="center">Lunch Break</td>
+	   <td colspan="6" align="center">WebTechnology Laboratory</td>
+	</tr>
+</table>
+
+<ol type="1">
+	<li>   19AI401 - Fundamentals of Web Technology</li>
+	<li>   19AI402 - WebTechnology Laboratory</li> 
+	<li>   19AI201 - Mathematics for Artificial Intelligence</li> 
+	<li>   19AI202 - Linear Algebra Laboratory</li> 
+	<li>   19AI301 - Python Programming</li> 
+	<li>   19AI302 - Engineering Design and Modelling</li> 
+	<li>   19AI303 - Engineering Mechanics and Product Development</li> 
+	<li>   ECA051-AM - Mentoring</li> 
+	<li>   19EY701 - Soft Skills</li> 
+</ol>
+
+
+</body>
 </html>
-~~~
-# OUPUT
-![output](./TIMETABLE.html)
+```
+
+## OUTPUT:
+![output](TIME.png)
+
+## RESULT:
+Thus, a html webpage is created to display the timetable
